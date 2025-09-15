@@ -47,3 +47,7 @@ BOARD_TEMPLATE = """
 1 | {} ||{}|| {} ||{}|| {} ||{}|| {} ||{}||
   |____||||||____||||||____||||||____||||||
 """
+
+# Representation of empty squares
+WHITE_SQUARE = '||'
+BLACK_SQUARE = '  '
