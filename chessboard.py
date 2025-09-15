@@ -87,3 +87,7 @@ def print_help():
     print('  fill wP - Fill entire board with white pawns.')
     print('  help - Show this help information.')
     print('  quit - Quits the program.')
+
+while True:
+    print_chess_board(main_board)
+    response = input('> ').split()
