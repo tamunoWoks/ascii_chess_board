@@ -51,3 +51,22 @@ BOARD_TEMPLATE = """
 # Representation of empty squares
 WHITE_SQUARE = '||'
 BLACK_SQUARE = '  '
+
+def print_chess_board(board):
+    squares = []              # Will hold all 64 board positions
+    is_white_square = True    # Tracks alternating square colors
+    for y in '87654321':
+        for x in 'abcdefgh':
+            #print(x, y, is_white_square)  # DEBUG: Shows coordinates in order.
+            if x + y in board.keys():
+              squares.append(board[x + y])
+            else:
+              if is_white_square:
+                squares.append(WHITE_SQUARE)
+              else:
+                squares.append(BLACK_SQUARE)
+            is_white_square = not is_white_square
+        is_white_square = not is_white_square
+
+    # Format the board template with the squares list
+    print(BOARD_TEMPLATE.format(*squares))
