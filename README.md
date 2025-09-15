@@ -17,3 +17,19 @@ Automatically initializes with the standard chess starting positions.
   - `quit` → Exit the program.
 - Custom Board Editing  
 Experiment with custom setups for practice, puzzles, or analysis.
+
+### Piece Codes:
+- **Colors**
+  - w = White
+  - b = Black
+- **Pieces**
+  - P = Pawn
+  - N = Knight
+  - B = Bishop
+  - R = Rook
+  - Q = Queen
+  - K = King
+
+Example:
+- wP = White Pawn
+- bQ = Black Queen
