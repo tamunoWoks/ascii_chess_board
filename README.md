@@ -33,3 +33,8 @@ Experiment with custom setups for practice, puzzles, or analysis.
 Example:
 - wP = White Pawn
 - bQ = Black Queen
+
+### Notes / Limitations:
+- This program does not enforce chess rules (e.g., valid moves, check, checkmate).
+- It is meant as a board editor / visualizer, not a full chess engine.
+- Invalid input may cause errors (e.g., moving from an empty square, or invalid coordinates).
